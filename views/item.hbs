@@ -1,0 +1,33 @@
+{{> head}}
+
+{{#>content}}
+<div class="row">
+  <div class="col-6">
+    <img class="img-fluid" src="/images/{{shirt.image}}" alt="Shirt">
+  </div>
+  <div class="col-6 item-desc">
+    <h1 class="text-uppercase">{{shirt.name}}</h1>
+    <p><b>${{shirt.price}}</b></p>
+    <p>{{shirt.desc}}</p>
+
+    <h2>SIZE</h2>
+    <ul class="list-group text-center d-block float-left pt-2">
+      <li class="list-group-item-2 active" style="padding: .3rem .5rem;">XS</li>
+      <li class="list-group-item-2">S</li>
+      <li class="list-group-item-2">M</li>
+      <li class="list-group-item-2">L</li>
+      <li class="list-group-item-2" style="padding: .3rem .5rem;">XL</li>
+    </ul>
+
+    <br>
+    <br>
+    <br>
+    <h2>QUANTITY</h2>
+    
+    <a class="btn-black">PURCHASE NOW&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-></a>
+    
+  </div>
+</div>
+{{/content}}
+
+{{> footer}}

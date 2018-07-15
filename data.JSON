@@ -1,0 +1,50 @@
+{
+  "shirt" : {
+    "name" : "chor u sevcav t-shirt",
+    "desc" : "Printed Wild Ones 'Chor U sevcav' album cover art on black t-shirt, 100% preshrunk cotton, 4.5 oz, fine knit jersey",
+    "price" : 35,
+    "image" : "shirt.JPG"
+  },
+  "phone" : {
+    "name" : "mobilskal",
+    "desc" : "Aussie manufactured Eco freindly Silicone cases printed with the most vibrant and unique images.",
+    "price" : 10,
+    "image" : "phone.JPG"
+  },
+  "jumper" : {
+    "name" : "hoppare",
+    "desc" : "Keep things simple with this beautifully presented sweater in rich fabric. Thanks to the easy, straight cut and stylized graphic, it's versatile enough to go with all your favorite jeans.",
+    "price" : 45,
+    "image" : "jumper.JPG"
+  },
+  "hat" : {
+    "name" : "hattUo",
+    "desc" : "A short, flexible brim makes it easy to style. While the great fit and breathable fabric mean it sits comfortably all-day long.",
+    "price" : 25,
+    "image" : "hat.JPG"
+  },
+  "record1" : {
+    "name" : "There will be wolves vinyl",
+    "desc" : "Vinyl record from the first feature album",
+    "price" : 35,
+    "image" : "record1.JPG"
+  },
+  "record2" : {
+    "name" : "Buildings of nature vinyl",
+    "desc" : "Vinyl record from the second studio feature album",
+    "price" : 35,
+    "image" : "record2.JPG"
+  },
+  "record3" : {
+    "name" : "If these trees could talk vinyl",
+    "desc" : "Vinyl record from the third feature album",
+    "price" : 35,
+    "image" : "record3.JPG"
+  },
+  "record4" : {
+    "name" : "Red sky vinyl",
+    "desc" : "Vinyl record from the final feature album",
+    "price" : 35,
+    "image" : "record4.JPG"
+  }
+}

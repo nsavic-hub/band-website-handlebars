@@ -1,0 +1,47 @@
+{{> head}}
+<body>
+{{> page1}}
+</body>
+
+<script id="page1" type="text/x-handlebars-template">
+
+{{> page1}}
+
+</script>
+
+<script id="page2" type="text/x-handlebars-template">
+
+{{> page2}}
+
+</script>
+
+<script id="page3" type="text/x-handlebars-template">
+
+{{> page3}}
+
+</script>
+
+<script id="page4" type="text/x-handlebars-template">
+
+{{> page4}}
+
+</script>
+
+<script id="page5" type="text/x-handlebars-template">
+
+{{> page5}}
+
+</script>
+
+{{#>contentDark}}
+  <ul class="list-group">
+    <li class="list-group-item"><a class="menu-option" value="1">Home</a></li>
+    <li class="list-group-item"><a class="menu-option" value="2">News & Events</li></a>
+    <li class="list-group-item"><a class="menu-option" value="3">Media</li></a>
+    <li class="list-group-item"><a class="menu-option" value="4">Wild Shop</li></a>
+    <li class="list-group-item"><a class="menu-option" value="5">Contacts</li></a>
+  </ul>
+{{/contentDark}}
+
+
+{{> footer}}

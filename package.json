@@ -1,0 +1,42 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node ./start.js",
+    "start": "nodemon ./start.js -e .js,.hbs --ignore public/ --exec",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "es6-promisify": "^5.0.0",
+    "eslint": "^4.19.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "hbs": "^4.0.1",
+    "md5": "^2.2.1",
+    "mongoose": "^4.10.8",
+    "mongoose-mongodb-errors": "0.0.2",
+    "nodemon": "^1.12.5",
+    "passport": "^0.4.0",
+    "passport-local-mongoose": "^4.4.0",
+    "path": "^0.12.7",
+    "validator": "^9.1.2"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
