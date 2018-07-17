@@ -14,11 +14,16 @@ body{
 }
 
 .top > .col-3 > h1{
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 900;
 }
 
-.top > .col-3 > h1 > i{
+.top > .col-4 > h1{
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.top > .col-4 > h1 > i{
   font-weight: 100;
 }
 
@@ -27,7 +32,7 @@ body{
 }
 
 .top > .col-3 > p{
-  font-size: 1.3em;
+  font-size: 0.9em;
   color: #bdb8b8;
 }
 
@@ -43,7 +48,7 @@ body{
   height: 80vh;
   writing-mode: vertical-rl;
   color: #bdb8b8;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .col-10.full{
@@ -165,19 +170,19 @@ b{
 
 .img-text > h1{
   font-weight: 900 !important;
-  font-size: 7em;
+  font-size: 5em;
   margin-bottom: -24px;
 }
 
 .img-text > h2{
   font-weight: 900 !important;
-  font-size: 3.7em;
+  font-size: 2.2em;
 }
 
 .img-text > p{
   margin-bottom: 0;
   color: white;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .list-group-item-2 {
